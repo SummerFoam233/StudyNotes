@@ -1,7 +1,7 @@
 #!/bin/bash
 # 上面中的 #! 是一种约定标记, 它可以告诉系统这个脚本需要什么样的解释器来执行;
 
-echo "GitAutoPush Starting..."
+echo "提交文件开始..."
 time=$(date "+%Y-%m-%d %H:%M:%S")
 git add .
 
@@ -17,6 +17,6 @@ fi
 
 	
 git push origin master
-echo "GitAutoPush Ending..."
+echo "提交文件结束..."
 
 
