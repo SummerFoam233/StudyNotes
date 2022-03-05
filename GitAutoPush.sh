@@ -1,6 +1,6 @@
 #!/bin/bash
 # 上面中的 #! 是一种约定标记, 它可以告诉系统这个脚本需要什么样的解释器来执行;
-
+cd -- "$(dirname "$BASH_SOURCE")"
 echo "提交文件开始..."
 time=$(date "+%Y-%m-%d %H:%M:%S")
 git add .
