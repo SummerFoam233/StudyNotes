@@ -16,7 +16,7 @@ else
 fi
 
 	
-git push origin master
+git push origin master --force
 echo "提交文件结束..."
 
 
